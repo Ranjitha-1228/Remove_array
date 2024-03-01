@@ -1,6 +1,6 @@
 const orignalArray = [1,2,2,3,6,6,0,5,3,7,9,3];
 
-function getUniqueArray(inputArray) {
+function getArray(inputArray) {
 
     const unique = [];
 
@@ -18,4 +18,4 @@ function getUniqueArray(inputArray) {
     );
     return unique;
   }
-  console.log(getUniqueArray(orignalArray));
+  console.log(getArray(orignalArray));
