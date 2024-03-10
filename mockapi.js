@@ -4,7 +4,8 @@ function getPostDataAndFilterByTitle(titleToFilter) {
         .then(response => response.json())
         .then(data => {
             
-            const filteredPosts = data.filter(post => post.title.includes(titleToFilter));
+            const filteredPosts = data.filter(post => 
+                post.title.includes(titleToFilter));
             
             
             console.log(filteredPosts);
